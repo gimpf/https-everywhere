@@ -1,0 +1,19 @@
+<!--
+	Time out:
+		v.cdn.cad-comic.com
+
+-->
+<ruleset name="CAD-Comic">
+
+	<target host="cad-comic.com" />
+	<target host="www.cad-comic.com" />
+	<target host="cdn.cad-comic.com" />
+	<target host='cdn2.cad-comic.com' />
+
+	<target host="cad-comic.shop" />
+	<target host="www.cad-comic.shop" />
+
+	<rule from="^http:"
+		to="https:" />
+
+</ruleset>
